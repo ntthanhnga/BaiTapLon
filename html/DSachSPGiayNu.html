@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danh Sách Sản Phẩm</title>
+
+    <link rel="stylesheet" href="../css/card.css" />
+    <link rel="stylesheet" href="../css/header.css" />
+   
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/footer.css" />
+    <style>
+      .card {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        border: 2px solid #ff6961;
+        /* background: linear-gradient(
+      100deg,
+      #ffe2e4,
+      #ffabe6,
+      #ffe2e4
+    ); Thêm gradient */
+        /* border: none; */
+        margin-bottom: 10px;
+        color: black;
+        font-weight: bold;
+      }
+      .btn {
+        color: white;
+        background-color: #ff6961;
+
+        border: none;
+        font-weight: bold;
+      }
+      
+        
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div>
+          <img src="../img/giohang.png" height="20px" />
+          <a href="">Giỏ Hàng</a>
+          <img src="../img/dangNhap.png" height="20px" />
+          <a href="">Đăng Nhập</a>
+          <a href="">Đăng Ký</a>
+        </div>
+        <h1>SNEAKER</h1>
+        <h4>MakeMoodFoot</h4>
+        <nav class="navbar navbar-expand-sm nav-tabs">
+          <!-- Links -->
+          <ul class="navbar-nav w-100 d-flex justify-content-between">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trang chủ</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbardrop"
+                data-toggle="dropdown"
+              >
+                Sản phẩm
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Giày Nam</a>
+                <a class="dropdown-item" href="#">Giày Nữ</a>
+                <a class="dropdown-item" href="#">Phụ Kiện</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Thông Tin</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Liên Hệ</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="search-container">
+          <input type="text" placeholder="Tìm Kiếm" />
+          <i class="fas fa-search"></i>
+        </div>
+      </header>
+      <div id="sp">
+        <!-- <div id="h2">
+          <h2>SẢN PHẨM NỔI BẬT</h2>
+        </div> -->
+        <!-- banner sp giày nữ -->
+        <div class="product-list">
+          <h2 class="text-center">Giày Nữ</h2>
+          <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-3 product-card">
+              <div class="card">
+                <img
+                  src="/IMG/Giày nữ 1.jpg"
+                  class="card-img-top"
+                  alt="Product 1"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Giày Thể Thao Nữ LK0121</h5>
+                  <p class="card-text">500,000 VND</p>
+                  <a href="#" class="btn">Xem Chi Tiết</a>
+                </div>
+              </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-3 product-card">
+              <div class="card">
+                <img
+                  src="/IMG/Giày nữ 2.jpg"
+                  class="card-img-top"
+                  alt="Product 2"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Giày Thể Thao Nữ LK0122</h5>
+                  <p class="card-text">750,000 VND</p>
+                  <a href="#" class="btn">Xem Chi Tiết</a>
+                </div>
+              </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-3 product-card">
+              <div class="card">
+                <img
+                  src="/IMG/Giày nữ 3.jpg"
+                  class="card-img-top"
+                  alt="Product 3"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Giày Thể Thao Nữ LK0123</h5>
+                  <p class="card-text">600,000 VND</p>
+                  <a href="#" class="btn">Xem Chi Tiết</a>
+                </div>
+              </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-md-3 product-card">
+              <div class="card">
+                <img
+                  src="/IMG/Giày nữ 4.jpg"
+                  class="card-img-top"
+                  alt="Product 4"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Giày Thể Thao Nữ LK0124</h5>
+                  <p class="card-text">1,000,000 VND</p>
+                  <a href="#" class="btn">Xem Chi Tiết</a>
+                </div>
+              </div>
+            </div>
+            <!--Product 5-->
+            <div class="col-md-3 product-card">
+                <div class="card">
+                  <img
+                    src="/IMG/Giày nữ 5.jpg"
+                    class="card-img-top"
+                    alt="Product 5"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Giày Thể Thao Nữ LK0125</h5>
+                    <p class="card-text">820,000 VND</p>
+                    <a href="#" class="btn">Xem Chi Tiết</a>
+                  </div>
+                </div>
+              </div>
+              <!--Product 6-->
+              <div class="col-md-3 product-card">
+                <div class="card">
+                  <img
+                    src="/IMG/Giày nữ 6.jpg"
+                    class="card-img-top"
+                    alt="Product 6"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Giày Thể Thao Nữ LK0126</h5>
+                    <p class="card-text">900,000 VND</p>
+                    <a href="#" class="btn">Xem Chi Tiết</a>
+                  </div>
+                </div>
+              </div>
+              <!--Product 7-->
+              <div class="col-md-3 product-card">
+                <div class="card">
+                  <img
+                    src="/IMG/Giày nữ 7.jpg"
+                    class="card-img-top"
+                    alt="Product 7"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Giày Thể Thao Nữ LK0127</h5>
+                    <p class="card-text">800,000 VND</p>
+                    <a href="#" class="btn">Xem Chi Tiết</a>
+                  </div>
+                </div>
+              </div>
+              <!--Product 8-->
+              <div class="col-md-3 product-card">
+                <div class="card">
+                  <img
+                    src="/IMG/Giày nữ 8.jpg"
+                    class="card-img-top"
+                    alt="Product 8"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Giày Thể Thao Nữ LK0128</h5>
+                    <p class="card-text">1,500,000 VND</p>
+                    <a href="#" class="btn">Xem Chi Tiết</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div>
+          <h1>SNEAKER</h1>
+          <h4>MakeMoodFoot</h4>
+          <p>Copyright © 2024 SNEAKER. All rights reserved.</p>
+        </div>
+        <div>
+          <h5>Sản phẩm</h5>
+          <h6>Giày Nam</h6>
+          <h6>Giày Nữ</h6>
+          <h6>Phụ Kiện</h6>
+        </div>
+        <!-- <div>
+          <h5>Về chúng tôi</h5>
+        </div> -->
+        <div>
+          <h5>Liên hệ</h5>
+          <h6>Email</h6>
+          <h6>sneaker.contact@email.com</h6>
+          <h6>Hotline</h6>
+          <h6>0909098386</h6>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

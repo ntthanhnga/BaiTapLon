@@ -1,0 +1,46 @@
+.product-list {
+    margin-top: 30px;
+  }
+  #sp {
+    border: 3px solid #ff6961;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .product-list {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #ff6961;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+  }
+  .card img {
+    margin-top: 1px;
+    height: 230px;
+    width: 100%;
+    border-bottom: 2px solid #ff6961;
+  }
+  .btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #ff6961;
+  }
+  .btn {
+    color: white;
+    background-color: #ff6961;
+  
+    border: none;
+    font-weight: bold;
+  }
+  
+  .card h5 {
+    color: black;
+    font-family: monospace;
+  }
